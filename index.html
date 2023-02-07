@@ -1,12 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/styles.css" />
+		<script
+			src="https://kit.fontawesome.com/9080648145.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Plata - Ecommerce</title>
+	</head>
+	<body>
+		<header class="mainHeader">
+			<div class="annoucementBar">
+				<a href=""><p>Novedades y Rebajas</p></a>
+			</div>
+			<nav role="navegacion" id="mainMenu">
+				<div class="contentNav">
+					<div class="navLeft">
+						<ul class="navMenu">
+							<li class="navItem">
+								<a href="#" class="navItemLink">Mujeres</a>
+							</li>
+							<li class="navItem">
+								<a href="#" class="navItemLink">Hombres</a>
+							</li>
+							<li class="navItem">
+								<a href="#" class="navItemLink">Infancia</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="contentLogo">
+						<a href="/index.html"
+							><img src="/images/Icono principal.png" alt="logo"
+						/></a>
+					</div>
+
+					<div class="navRight">
+						<div class="buscador">
+							<form action="buscador">
+								<input
+									type="search"
+									name="q"
+									placeholder="Buscar"
+									required="required"
+								/>
+								<button type="submit">Buscar</button>
+							</form>
+						</div>
+
+						<div class="butUser">
+							<a><i class="fa-solid fa-user"></i>User</a>
+						</div>
+
+						<div class="butShop">
+							<p><i class="fa-solid fa-cart-shopping"></i>Shop <sup>2</sup></p>
+						</div>
+						<!---
+						<ul class="navMenuRight">
+							<li class="navItem">
+								<button><i class="fa-solid fa-user"></i></button>
+							</li>
+							<li class="navItem">
+								<a href="#" class="navItemLink">Carrito</a>
+							</li>
+						</ul>
+						-->
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="sectionHero section">
+				<div class="container grid grid-two-column">
+					<div class="sectionHeroData">
+						<h1 class="heroHeading">ART</h1>
+						<p class="heroParagraph">Bienvenidos a nuestra tienda de joyería en línea, donde ofrecemos una amplia selección de piezas únicas y elegantes que harán brillar cualquier look. Somos apasionados de la joyería y nos esforzamos por ofrecer una experiencia de compra sin igual a cada uno de nuestros clientes.
+						</p>
+						<div>
+							<a href="#" class="button ClickMe">Click Me</a>
+						</div>
+					</div>
+
+					<div class="sectionHeroImage">
+						<img src="/images/anillo.png" alt="Anillo" class="heroImage" />
+					</div>
+				</div>
+			</section>
+		</main>
+		<div class="contentTypes">
+			<div class="phrase">
+				<h2>Brillando con elegancia, encuentra tu joya perfecta aqui</h2>
+			</div>
+			<div class="contentJewels">
+				<div
+					class="card"
+					style="background-image: url(/images/Class-Anillo.jpg)"
+				>
+					<div class="textos">
+						<p>Anillos</p>
+					</div>
+				</div>
+
+				<div
+					class="card"
+					style="background-image: url(/images/Class-Arracadas.jpg)"
+				>
+					<div class="textos">
+						<p>Arracadas</p>
+					</div>
+				</div>
+
+				<div
+					class="card"
+					style="background-image: url(/images/Class-Aretes.jpg)"
+				>
+					<div class="textos">
+						<p>Aretes</p>
+					</div>
+				</div>
+
+				<div
+					class="card"
+					style="background-image: url(/images/Class-Collares.jpg)"
+				>
+					<div class="textos">
+						<p>Collares</p>
+					</div>
+				</div>
+
+				<div
+					class="card"
+					style="background-image: url(/images/Class-Pulseras.jpg)"
+				>
+					<div class="textos">
+						<p>Pulseras</p>
+					</div>
+				</div>
+
+				<div
+					class="card"
+					style="background-image: url(/images/Class-Charms.jfif)"
+				>
+					<div class="textos">
+						<p>Charms</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="directionForm">
+			<div class="maps">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d278.166392073784!2d-97.39117649391162!3d18.46290171633219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5bcd76a8e6ee7%3A0xf85d8303934bc034!2sJoyer%C3%ADa%20Arth!5e0!3m2!1ses!2smx!4v1675744037237!5m2!1ses!2smx"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+					class="map"
+				></iframe>
+			</div>
+			<div class="form">
+				<div class="inf">
+					<h2>Mantente Al Tanto de nuevas noticias</h2>
+				</div>
+				<div class="form1">
+					<form>
+						<input type="text" placeholder="Nombre" />
+						<input type="email" placeholder="Correo electrónico" />
+						<button type="submit">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
