@@ -1,0 +1,68 @@
+#bodyIndex{
+    background: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-position-y: 0px;
+	background-position: top 0;
+    .container-fluid{
+        height: 100vh;
+        padding: 20px;
+        text-align: center;
+        .container{
+            padding: 5px;
+            .content0{
+                padding: 10px;
+                h1{
+                    font-size: 120px;
+                    font-family: futura-pt-bold, sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    color: #dee4eb;
+                    text-decoration: underline 2px;
+                }
+            }
+            .content1{
+                padding: 10px;
+                p{
+                    font-size: 50px;
+                    font-family: 'Raleway', sans-serif;
+                    color: #dee4eb;
+                }
+            }
+            .content2{
+                padding: 5px;
+                .content{
+                    padding: 5px;
+                    font-size: 20px;
+                    .nav{
+                        .nav-link{
+                            color: #dee4eb;
+                        }
+                        .nav-link:hover{
+                            color: #dc72c2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.content3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%; 
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
