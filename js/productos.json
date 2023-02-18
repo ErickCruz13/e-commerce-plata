@@ -1,0 +1,152 @@
+[
+	{
+		"id": "anillo-01",
+		"titulo": "Anillo 01",
+		"imagen": "./img/Anillos/01.jpg",
+		"categoria": {
+			"nombre": "Anillos",
+			"id": "anillos"
+		},
+		"precio": 350
+	},
+	{
+		"id": "anillo-02",
+		"titulo": "Anillo 02",
+		"imagen": "./img/Anillos/02.jfif",
+		"categoria": {
+			"nombre": "Anillos",
+			"id": "anillos"
+		},
+		"precio": 200
+	},
+	{
+		"id": "anillo-03",
+		"titulo": "Anillo 03",
+		"imagen": "./img/Anillos/03.jfif",
+		"categoria": {
+			"nombre": "Anillos",
+			"id": "anillos"
+		},
+		"precio": 400
+	},
+	{
+		"id": "anillo-04",
+		"titulo": "Anillo 04",
+		"imagen": "./img/Anillos/04.jfif",
+		"categoria": {
+			"nombre": "Anillos",
+			"id": "anillos"
+		},
+		"precio": 200
+	},
+	{
+		"id": "anillo-05",
+		"titulo": "Anillo 05",
+		"imagen": "./img/Anillos/05.jfif",
+		"categoria": {
+			"nombre": "Anillos",
+			"id": "anillos"
+		},
+		"precio": 300
+	},
+	{
+		"id": "arracada-01",
+		"titulo": "Arracada 01",
+		"imagen": "./img/arracadas/01.png",
+		"categoria": {
+			"nombre": "Arracadas",
+			"id": "arracadas"
+		},
+		"precio": 250
+	},
+	{
+		"id": "arracada-02",
+		"titulo": "Arracada 02",
+		"imagen": "./img/arracadas/02.png",
+		"categoria": {
+			"nombre": "Arracadas",
+			"id": "arracadas"
+		},
+		"precio": 200
+	},
+	{
+		"id": "arracada-03",
+		"titulo": "Arracada 03",
+		"imagen": "./img/arracadas/03.png",
+		"categoria": {
+			"nombre": "Arracadas",
+			"id": "arracadas"
+		},
+		"precio": 250
+	},
+	{
+		"id": "arracada-04",
+		"titulo": "Arracada 04",
+		"imagen": "./img/arracadas/04.png",
+		"categoria": {
+			"nombre": "Arracadas",
+			"id": "arracadas"
+		},
+		"precio": 150
+	},
+	{
+		"id": "arracada-05",
+		"titulo": "Arracada 05",
+		"imagen": "./img/arracadas/05.jfif",
+		"categoria": {
+			"nombre": "Arracadas",
+			"id": "arracadas"
+		},
+		"precio": 180
+	},
+	{
+		"id": "collares-01",
+		"titulo": "Collares 01",
+		"imagen": "./img/collares/01.jfif",
+		"categoria": {
+			"nombre": "Collares",
+			"id": "collares"
+		},
+		"precio": 400
+	},
+	{
+		"id": "collares-02",
+		"titulo": "Collares 02",
+		"imagen": "./img/collares/02.jfif",
+		"categoria": {
+			"nombre": "Collares",
+			"id": "collares"
+		},
+		"precio": 450
+	},
+	{
+		"id": "collares-03",
+		"titulo": "Collares 03",
+		"imagen": "./img/collares/03.jpg",
+		"categoria": {
+			"nombre": "Collares",
+			"id": "collares"
+		},
+		"precio": 350
+	},
+	{
+		"id": "collares-04",
+		"titulo": "Collares 04",
+		"imagen": "./img/collares/04.jfif",
+		"categoria": {
+			"nombre": "Collares",
+			"id": "collares"
+		},
+		"precio": 500
+	},
+	{
+		"id": "collares-05",
+		"titulo": "Collares 05",
+		"imagen": "./img/collares/05.jfif",
+		"categoria": {
+			"nombre": "Collares",
+			"id": "collares"
+		},
+		"precio": 550
+	}
+]

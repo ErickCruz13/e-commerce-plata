@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ARTZ</title>
+		<link
+			rel="shortcut icon"
+			href="./img/Icono principal.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<nav
+			class="navbar navbar-expand-lg navbar-light bs-light position-static top-0 star-0 w-100"
+			style="background-color: white"
+		>
+			<div class="container text-center">
+				<a href="" class="navbar-brand d-lg-none">ARTZ</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarContent"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse p-2 flex-column">
+					<div
+						class="d-flex justify-content-center justify-content-lg-between flex-column flex-lg-row w-100"
+					>
+						<a class="navbar-brand d-none d-lg-block" href="#">ARTZ</a>
+						<ul class="navbar-nav">
+							<li class="nav-items d-flex align-items-center">
+								<a href="#" class="nav-link mx-2"> Mi cuenta </a>
+							</li>
+							<li class="nav-items d-flex align-items-center">
+                                <a class="nav-link mx-2" href="./carrito.html">
+                                    <i class="bi bi-cart-fill"></i> Carrito
+                                    <span id="numerito" class="numerito">0</span>
+                                </a>
+							</li>
+						</ul>
+					</div>
+                    
+					<div class="d-block w-100">
+						<ul
+							class="navbar-nav d-flex justify-content-center align-items-center pt-3"
+						>
+							<li>
+								<a href="#" class="nav-link">Mujeres</a>
+							</li>
+							<li>
+								<a href="#" class="nav-link">Hombres</a>
+							</li>
+							<li>
+								<a href="#" class="nav-link">Infancia</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container position-relative text-center">
+			<header class="position-relative text-center text-white mb-5">
+				<img src="./img/Banner.jpg" alt="banner" class="w-100" />
+				<div
+					class="position-absolute top-50 start 50 tranlate-middle-x w-100 px-3"
+				>
+					<h1 class="display-4">Colección 2023</h1>
+					<a href="#new" class="btn btn-light"> Explora lo recien llegado </a>
+				</div>
+			</header>
+		</div>
+
+		<main>
+			<h2 class="titulo-principal text-center" id="titulo-principal">
+				Todos los productos
+			</h2>
+			<div id="contenedor-productos" class="contenedor-productos text-center">
+				<!-- Esto se va a rellenar con JS -->
+			</div>
+		</main>
+
+		<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/toastify-js"
+		></script>
+		<script src="./js/main.js"></script>
+		<script src="./js/menu.js"></script>
+	</body>
+</html>
